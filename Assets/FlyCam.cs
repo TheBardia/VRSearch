@@ -4,17 +4,6 @@ using System.Collections;
 public class FlyCam : MonoBehaviour
 {
 
-	/**
-     * Writen by Windexglow 11-13-10.  Use it, edit it, steal it I don't care.
-     * Converted to C# 27-02-13 - no credit wanted.
-     * Added resetRotation, RF control, improved initial mouse position, 2015-03-11 - Roi Danton.
-     * Simple flycam I made, since I couldn't find any others made public.
-     * Made simple to use (drag and drop, done) for regular keyboard layout
-     * wasdrf : basic movement
-     * shift : Makes camera accelerate
-     * space : Moves camera on X and Z axis only.  So camera doesn't gain any height
-     */
-
 	float mainSpeed = 10f; // Regular speed.
 	float shiftAdd = 25f;  // Multiplied by how long shift is held.  Basically running.
 	float maxShift = 100f; // Maximum speed when holding shift.
